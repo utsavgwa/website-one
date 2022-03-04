@@ -16,7 +16,21 @@
   display: flex;
   align-items: stretch;
 }
+.story-para{
+  line-height: 1.2; /*for dense text content line height should be 1.2 to 1.5*/
+}
 .story{
   border: 1px solid #333;
   padding: 10px;
+}
+.quarter{
+  width: 25%; 
+  /*flex-grow: 1;tried this but it adjusts width*/
+}
+.half{
+  width: 50%;
+  /*flex-grow: 2; tried this but it adjusts width*/
+}
+.half-image{
+  width:100%;
 }
