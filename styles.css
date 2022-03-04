@@ -1,10 +1,16 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  padding: 15px;
+}
 .main-brand{
   font-size: 70px;
   text-align: center;
   font-weight: normal;
   font-family: 'Pacifico', cursive;
-  margin: 50px 0;
+  margin: 30px 0 60px 0;
 }
 .story-title{
   font-weight: normal;
@@ -26,12 +32,49 @@
 }
 .quarter{
   width: 25%; 
-  /*flex-grow: 1;tried this but it adjusts width*/
+  /*flex: 1;tried this but it adjusts width*/
 }
 .half{
   width: 50%;
-  /*flex-grow: 2; tried this but it adjusts width*/
+  /*flex: 2; tried this but it adjusts width*/
 }
 .half-image{
   width:100%;
+}
+.quarter-three{
+    width: 75%;
+    /*flex: 3; tried this but it adjusts width*/
+}
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;/*this is to change bullet list appearance */
+}
+.nav-item{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-size: 30px;
+  color: #555;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-item a{
+  text-decoration: none;
+  color: #555;
+}
+.nav-item a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.nav-item:nth-child(2n+1){
+  background-color: cornflowerblue;
+}
+
+.nav-item:nth-child(2n){
+  background-color:tomato;
 }
