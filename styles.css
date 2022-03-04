@@ -18,6 +18,7 @@
 }
 .story-para{
   line-height: 1.2; /*for dense text content line height should be 1.2 to 1.5*/
+  font-size:medium;
 }
 .story{
   border: 1px solid #333;
