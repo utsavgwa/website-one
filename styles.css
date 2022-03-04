@@ -1,0 +1,22 @@
+
+.main-brand{
+  font-size: 70px;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Pacifico', cursive;
+  margin: 50px 0;
+}
+.story-title{
+  font-weight: normal;
+  font-size: 30px;
+  margin: 15px 0;
+  text-align: center;
+}
+.row{
+  display: flex;
+  align-items: stretch;
+}
+.story{
+  border: 1px solid #333;
+  padding: 10px;
+}
