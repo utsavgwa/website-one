@@ -4,12 +4,12 @@ This is my first website, and it is designed to seem like a local newspaper that
 Here, I learned about **HTML** and **CSS** syntax by using various **tags** and their characteristics. I also learned about **CSS properties** like **classes**, **pseudo-classes**, **the cascade**, **the box model**, and many **flex box** properties.
 ## Live Preview
 
-Site is live as [***website one***](utsavgwa.github.io/website-one/), go and check it out!
+Site is live as [***website one***](https://utsavgwa.github.io/website-one/), go and check it out!
 See how it works.
 
 URL for website is --
 ```
-utsavgwa.github.io/website-one/
+https://utsavgwa.github.io/website-one/
 ```
 
 ## Contributing
